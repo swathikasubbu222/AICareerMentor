@@ -1,4 +1,4 @@
-const BASE_URL = "https://aicareermentor-v7h5.onrender.com"
+const BASE_URL = "https://aicareermentor-v7h5.onrender.com/api"
 
 export const registerUser = async (name, email, password) => {
   const response = await fetch(`${BASE_URL}/auth/register`, {
