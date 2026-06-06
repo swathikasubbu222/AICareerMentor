@@ -23,4 +23,4 @@ app.include_router(chat_router, prefix="/api/chat")
 
 @app.get("/api/health")
 def health_check():
-    return {"status": "healthy", "project": "AI Career Mentor"
+    return {"status": "healthy", "project": "AI Career Mentor"}
